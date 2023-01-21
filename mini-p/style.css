@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(66, 14, 14);
+    border-radius: 50%;
+    display: inline-block;
+  }
+.left-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+
+
+#first{
+    background-color: #d2ceff;
+}
+#second{
+    background-color: #DAF2D6;
+}
+#third{
+    background-color: #FFCECE;
+}
+#fourth{
+    background-color: #D1E5F7;
+}
+#check-box{
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.container1{
+    position: relative;
+    border: 2px solid;
+    width: 378px;
+    height: 150px;
+    background-color: #FFF9dE;;
+    padding: 7px;
+}
+#span{
+    margin-right: 30px;
+}
+.flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+    /* width: 1270px;
+    margin-left: 228px;
+    margin-top: -103px; */
+
+
+/* .flex >*{
+    flex: 1 1 200px
+} */
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+
+
+}
+#F{
+    margin-left: 0px;
+    margin-top: -7px;
+}
+#S{
+    margin-left: 19px;
+}
+.check{
+    margin-left: 10px;
+}
+
+input[type = checkbox]:checked + label{
+    text-decoration: line-through;
+}
